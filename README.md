@@ -11,7 +11,7 @@ The purpose of this Jupyter notebook is to explore linear regression models thro
 
 ## Usage
 - Open the notebook in a Jupyter environment.
-- Run the cells sequentially to understand the flow and outputs.
+- Run the cells from top to bottom to understand the program better.
 - Modify parameters or input data as needed to see different results.
 
 ## Prerequisites
