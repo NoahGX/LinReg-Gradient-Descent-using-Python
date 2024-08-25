@@ -1,33 +1,32 @@
-# Linear Regression and Gradient Descent using Python
+# Linear Regression
 
 ## Overview
-The purpose of this Jupyter notebook is to explore linear regression models through practical coding examples using gradient descent. It includes a detailed walkthrough of building and improving a linear regression model, analyzing its performance, and making predictions using Python libraries such as NumPy and Pandas.
+This collection of Jupyter Notebooks demonstrates the implementation and optimization of Linear Regression models using Python. `LinReg-1` focuses on using both the Normal Equation and Gradient Descent methods to train models on real data. `LinReg-2` explores linear regression through practical coding examples and gradient descent, using synthetic datasets to understand model performance and optimization.
 
 ## Features
-- Implementation of linear regression from scratch.
-- Use of gradient descent to optimize model parameters.
-- Generation of synthetic datasets to test the models.
-- Calculation and visualization of model performance and loss metrics.
+- **Normal Equation Method**: Direct computation of weights that minimize the loss without iteration.
+- **Gradient Descent Method**: Iterative adjustment of weights to minimize the loss, suitable for both real and synthetic datasets.
+- **Interactive Parameters**: Adjust learning rates and observe the effects on model convergence.
+- **Visualization of Performance**: Plots illustrating the model's predictions, fit, and loss reduction graphs.
 
 ## Usage
-- Open the notebook in a Jupyter environment.
-- Run the cells from top to bottom to understand the program better.
-- Modify parameters or input data as needed to see different results.
+Run each cell sequentially and modify parameters in the Gradient Descent sections as desired to explore different outcomes.
 
 ## Prerequisites
 - Python 3.x
-- NumPy
-- Pandas
-- Matplotlib (for plotting)
+- Jupyter Notebook or Jupyter Lab
+- Libraries: `numpy`, `matplotlib`, `pandas`
 
 ## Input
-The main input for this notebook is a synthetic dataset generated within the notebook itself. Users can modify the parameters of the dataset generation function to experiment with different types of data.
+- `Lin_Reg-1` uses a dataset named `sat_gpa.csv`, with 105 rows and 3 columns: Math SAT score, Verb SAT score, and University GPA.
+- `LinReg-2` operates on a synthetic dataset generated within the notebook. Parameters of the dataset generation function can be modified for experimentation.
 
 ## Output
-- Predicted values using the linear regression model.
-- Visualizations of the model fit on the data.
-- Loss metrics (e.g., MSE) to evaluate model performance.
+- Final weights for Linear Regression models.
+- Predicted values and visualizations of model fits.
+- Loss metrics (e.g., MSE) to evaluate model performance across both notebooks.
 
 ## Notes
-- The notebook is basic and intended to illustrate the concepts of linear regression and gradient descent.
-- It does not include any real-world dataset but instead focuses on synthesized data to ensure a clear understanding of the mechanics involved.
+- For `LinReg-1`, ensure the dataset `sat_gpa.csv` is in the proper directory or adjust the path accordingly.
+- Different learning rates can significantly affect the performance and speed of the Gradient Descent method in `LinReg-1`, so experimentation is encouraged.
+- `LinReg-2` is basic in order to illustrate concepts using synthesized data for clear understanding and requires modifications for production use.
